@@ -1,0 +1,15 @@
+{
+  "name": "central-monitoramento-v2",
+  "version": "2.0.0",
+  "description": "Receptor TCP/IP Contact ID para central Vetti Smart Alarm Monitorada (v2: env vars + log rotation por email)",
+  "main": "contactid-server.js",
+  "scripts": {
+    "start": "node --env-file=.env contactid-server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.14"
+  }
+}
