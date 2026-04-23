@@ -534,7 +534,6 @@ tcpServer.listen(TCP_PORT, HOST, () => {
 });
 
 httpServer.listen(PORT, HOST, () => {
-    console.log('process.env', process.env);
     console.log(`[${ts()}] HTTP healthcheck em ${HOST}:${PORT}`);
 });
 
